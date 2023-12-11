@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Momondo - Make Your Travelling Easy</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body>
+        <!-- header section start -->
+        <header>
+            <ul>
+                <li><a href="javascript:void"><img src="./assets/img/logo (1).png" alt="logo" height="20px" width="100px"></a></li>
+                <li><a href="javascript:void" class="active">Flight</a></li>
+                <li><a href="javascript:void">Hotels</a></li>
+                <li><a href="javascript:void">Car Hire</a></li>
+                <li><a href="javascript:void">Trip Finder</a></li>
+            </ul>
+            <ul>
+                <li><a href="javascript:void"><img src="./assets/img/flag.png" alt="US Flag" width="20px" height="20px" style="padding-top: 8px;"> English</a></li>
+                <li><a href="javascript:void">Log.in</a></li>
+            </ul>
+        </header>
+        <!-- header section end -->
+        <!-- banner section start -->
+        <section class="banner">
+            <h1>"The best place to find <br>
+            the cheapest airfares"</h1>
+            <h2>-every single time</h2>
+            
+                <form action="">
+                    <div>
+                        <div class="SwitchButton">
+                            <button type="button" class="active"><i class="fa-solid fa-plane-departure"></i> Flights</button>
+                            <button type="button"><i class="fa-solid fa-hotel"></i> Hotels</button>
+                            <button type="button"><i class="fa-solid fa-car"></i> Cars</button>
+                        </div>
+                        <div class="searchform">
+                            <label>Your Origin City</label>
+                            <input type="text" id="yourcity" placeholder="Enter Origin City">
+
+                            <span style="color: #7886d1;"><i class="fa-solid fa-arrow-right-arrow-left"></i></span>
+
+                            <label>Distiation City</label>
+                            <input type="text" id="yourcity" placeholder="Enter Distiation City">
+
+                            <label>Start Date</label>
+                            <input type="date" id="yourcity" placeholder="Enter Start Date">
+
+                            <label>End Date</label>
+                            <input type="date" id="yourcity" placeholder="Enter End Date">
+
+                            <label>select-passenger</label>
+                            <select name="select-passenger" id="select-passenger">
+                                <option value="select">select-passenger</option>
+                                <option value="1 Pass">1 Passenger</option>
+                                <option value="2 Pass">2 Passenger</option>
+                                <option value="3 Pass">3 Passenger</option>
+                                <option value="4 Pass">4 Passenger</option>
+                                <option value="5 Pass">5 Passenger</option>
+                            </select>
+                        </div>
+                        <div class="drop">
+                            <ul>
+                                <li> <label for="trip type">Trip type :</label>
+
+                                    <select name="cars" id="cars">
+                                      <option value="volvo">Return Trip</option>
+                                      <option value="saab">Saab</option>
+                                      <option value="mercedes">Mercedes</option>
+                                      <option value="audi">Audi</option>
+                                    </select> 
+                                </li>
+
+                                <li> <label for="cars">Ticket class :</label>
+
+                                    <select name="cars" id="cars">
+                                      <option value="volvo">Economy</option>
+                                      <option value="saab">Saab</option>
+                                      <option value="mercedes">Mercedes</option>
+                                      <option value="audi">Audi</option>
+                                    </select> 
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                                    <label for="vehicle1"> Direct Flight Only</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                                    <label for="vehicle2"> Include nearby Airport</label>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    <div>
+                        <button type="submit" class="sbt">submit</button>
+                    </div>
+                </form>
+        </section>
+        <!-- banner section end -->
+ 
+        <!-- fun section start -->
+        <section class="fun">
+            <h2>SOME FUN WE COVERED</h2>
+            <ul>
+                <li><i class="fa-solid fa-person-biking"></i> <h5 style="font-size: 30px;">5670 M</h5> <h6 style="font-size: 10px;">CYLIING TRACKING </h6>
+                <li><i class="fa-solid fa-location-dot"></i> <h5 style="font-size: 30px;">480 M</h5> <h6 style="font-size: 10px;">DISTANCE COVERD</h6></li>
+                <li><i class="fa-solid fa-person-hiking"></i><h5 style="font-size: 30px;">5670 M</h5> <h6 style="font-size: 10px;">ALTITUDE HIKED </h6></li>
+                <li><i class="fa-solid fa-sailboat"></i><h5 style="font-size: 30px;">180 KM</h5> <h6 style="font-size: 10px;">SAILING DISTANCE </h6></li>
+                <li><i class="fa-solid fa-cloud-sun-rain"></i><h5 style="font-size: 30px;">570 DAYS</h5> <h6 style="font-size: 10px;">SPENT ADVENTURE</h6></li>
+                <li><i class="fa-solid fa-tree"></i><h5 style="font-size: 30px;">567 M</h5> <h6 style="font-size: 10px;">JUGLE DISTANCE </h6></li>
+            </ul>
+        </section>
+        <!-- fun section end -->
+
+        <!-- Plane Section Start -->
+        <section class="plane">
+              <h1>SUBSCRIBE FOR OUR TRAVEL NEWSLETTERS</h1>
+              <p>
+                 join our community of over 300,000 global readers who receive emails filled with news,
+                 promotion, and other good stuff from G Aventure.
+              </p>
+              <form id="fom"> 
+                <input type="search" id="query" name="q" placeholder="  Enter your emial address  ...">
+                <button>Search</button>
+              </form>
+        </section>
+        <!-- Plane Section End -->
+        <!-- Destination section start -->
+             <section class="destination">
+                <h2>
+                    POPULAR DESTINATIONS
+                </h2>
+                <ul>
+                    <li>
+                        <div>
+                            <img src="./assets/img/itley.jpg" alt="romeimage">
+                        </div>
+                        <div>
+                            <h4>
+                               <span style="color: #D08E77;">$999</span> Rome.Florence & Venice 9 Night Vacation w/Air
+                            </h4>
+                            <p>
+                                This is the lowest price we have seen in four years for a nine-night 
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="./assets/img/sydney.jpg" alt="sydneyimage">
+                        </div>
+                        <div>
+                            <h4>
+                               <span style="color: #D08E77;">$999</span> Rome.Florence & Venice 9 Night Vacation w/Air
+                            </h4>
+                            <p>
+                                This is the lowest price we have seen in four years for a nine-night 
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="./assets/img/greek-iland.jpg" alt="">
+                        </div>
+                         <div>
+                            <h4>
+                               <span style="color: #D08E77;">$999</span> Rome.Florence & Venice 9 Night Vacation w/Air
+                            </h4>
+                            <p>
+                                This is the lowest price we have seen in four years for a nine-night 
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="./assets/img/church.jpg" alt="">
+                        </div>
+                         <div>
+                            <h4>
+                               <span style="color: #D08E77;">$999</span> Rome.Florence & Venice 9 Night Vacation w/Air
+                            </h4>
+                            <p>
+                                This is the lowest price we have seen in four years for a nine-night 
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="./assets/img/moracco.jpg" alt="">
+                        </div>
+                         <div>
+                            <h4>
+                               <span style="color: #D08E77;">$999</span> Rome.Florence & Venice 9 Night Vacation w/Air
+                            </h4>
+                            <p>
+                                This is the lowest price we have seen in four years for a nine-night 
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="./assets/img/coba.jpg" alt="">
+                        </div>
+                         <div>
+                            <h4>
+                               <span style="color: #D08E77;">$999</span> Rome.Florence & Venice 9 Night Vacation w/Air
+                            </h4>
+                            <p>
+                                This is the lowest price we have seen in four years for a nine-night 
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="./assets/img/newzealand.jpg" alt="">
+                        </div>
+                         <div>
+                            <h4>
+                               <span style="color: #D08E77;">$999</span> Rome.Florence & Venice 9 Night Vacation w/Air
+                            </h4>
+                            <p>
+                                This is the lowest price we have seen in four years for a nine-night 
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="./assets/img/turkey.jpg" alt="">
+                        </div>
+                         <div>
+                            <h4>
+                               <span style="color: #D08E77;">$999</span> Rome.Florence & Venice 9 Night Vacation w/Air
+                            </h4>
+                            <p>
+                                This is the lowest price we have seen in four years for a nine-night 
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+             </section>
+        <!-- Distination section end -->
+
+        <!-- estimation section start -->
+           <section class="estimation">
+            <h3>GET A QUICK ESTIMATE!</h3>
+            <h6>GET A PROFESIONAL HELP <br>________</h6>
+            <form class="fr">
+                <label for="purpose">Purpose</label>
+                <select name="purpose" id="purpose">
+                    <option value="travel">Travel</option>
+                    <option value="business">Business</option>
+                    <option value="medical">Medical</option>
+                    <option value="education">Education</option>
+                </select>    
+                <label for="tdate">Travel Date</label>  
+                <input type="date">  
+                <label for="people">Number of People</label>
+                <select name="people" id="people">
+                    <option value="people">Number of People</option>
+                    <option value="one">1</option>
+                    <option value="two">2</option>
+                    <option value="three">3</option>
+                    <option value="four">4</option>
+                    <option value="five">5</option>  
+                </select>
+
+                <label for="email">Email</label>
+                <input type="email" value="Your Email" id="email">
+
+                <input type="submit" value="CALCULATE NOW" style="background: #F98D0B;">
+            </form>
+            <img src="./assets/img/Rome-Free-PNG-Image.png" alt="romeimage">
+           </section>
+        <!-- estimation section end -->
+
+        <!-- Blog Section Start -->
+        <section class="blog">
+            <h2 style="color: #000;">
+                LATEST BLOG
+            </h2>
+            <P>
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo maiores tempora illum porro illo? Reiciendis provident praesentium ut commodi nam! Illum, quam! Amet aperiam minima numquam sapiente, 
+               Lorem ipsum dolor sit amet. 
+            </P>
+           <div class="blog-content">
+                <div>
+                    <img src="./assets/img/blog1.jpeg" alt="blog1">
+
+                   <div>
+                    <p>Feb 1 2023</p>
+                    <h3>
+                        10 THINGS TO DO BEFORE TRAVEL
+                    </h3>
+                    <p class="bdr"> &nbsp; &nbsp;</p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aspernatur corporis nihil perspiciatis laudantium. Corporis, at. 
+                    </p>
+                   </div>
+                </div>
+
+                <div>
+                    <img src="./assets/img/blog2.jpeg" alt="blog2" >
+                   <div>
+                    <p>March 1 2023</p>
+                    <h3>
+                        SAY NO TO LAZY LIFE
+                    </h3>
+                    <p class="bdr"> &nbsp;</p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aspernatur corporis nihil perspiciatis laudantium. Corporis, at. 
+                    </p>
+                   </div>
+                </div>
+           </div>
+        </section>
+        <!-- Blog Section End -->
+
+        <script src="./assets/js/script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.js"></script>
+    </body>
+</html>

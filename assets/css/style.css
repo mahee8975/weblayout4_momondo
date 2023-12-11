@@ -1,0 +1,298 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{  color: #fff;
+    text-decoration:  none;
+}
+h2{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px     ;
+}
+/* header section start */
+header{
+    width: 100%;
+    height: 55px;
+    color: #fff;
+    display: flex;
+    background: #131e3a;
+    display: flex;
+    padding: 0px 125px;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul li{
+    margin: 0px 20px;
+    display: inline-block;
+}
+header ul li a{
+    font-weight: 600;
+}
+header ul li .active{
+    color: #ec567b;
+}
+/* header section end */
+/* banner section start */
+.banner{
+    width: 100%;
+    height: 650px;
+    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url(../img/banner3.png);
+    background-size: 100% 100%;
+    padding: 0px 150px;
+    position: relative;
+}
+.banner h1{
+    font-size: 50px;
+    font-weight: normal;
+    padding-top: 6%;
+    position: absolute;
+    color: #fff;
+}
+.banner h2{
+    font-size: 30px;
+    padding-top: 16%;
+    position: absolute;
+    color: #fff;
+}
+.banner form{
+    width: 80%;
+    height: auto;
+    background: #5c327a;
+    position: absolute;
+    margin-top: 35%;
+    padding: 2px 8px;
+    display: flex;
+
+}
+.banner form button{
+    width: 100px;
+    height: 25px;
+    background: #162241;
+    color: #fff;
+    border: none;
+}
+.banner form button.active{
+    background: #fc2d4b;
+}
+.banner form label{
+    display: none;
+}
+.banner form .searchform{
+    padding-top: 10px;
+}
+.banner form .searchform input,
+.banner form .searchform select {
+    width: 180px;
+    height: 45px;
+}
+.banner form button.sbt{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-left: 35px;
+    margin-top: 8px;
+    background: #f01233;
+}
+.banner form .drop ul{
+    display: flex;
+    list-style: none;
+}
+.banner form .drop ul label{
+    display: inline-block;
+    color: #fff;
+}
+.banner form .drop ul li{
+    border: 0px solid transparent;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* banner section end */
+
+/* fun section start */
+.fun{
+    width: 100%;
+    height: 350px;
+    padding: 50px 125px;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/fun.jpg);
+    background-size: 100% 100%;
+}
+.fun h2{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+
+
+}
+.fun ul li{
+    width: 150px;
+    height: auto;
+    list-style: none;
+    background: rgba(0,0,0,0.8);
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+    
+}
+.fun ul{
+   display: flex;
+   justify-content: space-between;
+}
+/* fun section end */
+
+/* plane section start */
+.plane{
+   width: 100%;
+   height: auto;
+   background: url(../img/news3.jpg);
+   background-size: 100% 100%;
+   color: #fff;
+   padding: 80px 125px 25px 400px;
+}
+.plane h1+p{
+    text-align: center;
+}
+.plane h1{
+    text-align: center;
+     padding-bottom: 20px;
+}
+.plane #fom{
+    padding-top: 50px;
+}
+.plane #fom button{
+    width: 100px;
+    height: 35px;
+}
+.plane #fom input{
+    width: 600px;
+    height: 35px;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+}
+/* plane section end */
+
+ /* Destination section start */
+ .destination{
+    width: 100%;
+    height: auto;
+    padding: 50px 125px;
+    background: #20162f;
+ }
+ .destination ul{
+    display: grid;
+    grid-template-columns: repeat(4,24%);
+    grid-template-rows: 400px 400px;
+    color: #fff;
+    grid-gap: 25px;
+
+ }
+ .destination ul li{
+    border: 5px solid #fff;
+    border-radius: 5px;
+    list-style: none;
+    background: #fff;
+    text-align: center;
+    
+ }
+ 
+ .destination ul li img{
+    width: 100%;
+    height: 200px;
+    
+ }
+ .destination ul li div{
+    color: #000;
+    
+ }
+ .destination ul li div h4,p{
+    margin-top: 20px;
+ }
+ /* Destination section end */
+
+ /* estimation section satrt */
+ .estimation{
+    background: #664CAD;
+    height: auto;
+    padding: 50px 125px;
+    position: relative;
+ }
+
+ .estimation h3{
+    color: #fff;
+    font-size: 30px;    
+ }
+
+.estimation h6{
+    color: #fff;
+    font-size: 20px;
+}
+
+.estimation label{
+    display: none;
+}
+
+ .estimation img{
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    bottom: 0;
+    right: 0px;   
+    
+ }
+.estimation .fr select{
+    margin: 40px 0px; 
+    width: 180px;
+    height: 40px;
+    margin-right: 20px;  
+ } 
+
+ .fr input{
+    margin: 40px 0px; 
+    width: 180px;
+    height: 40px;
+    margin-right: 20px; 
+ }
+ /* estimation section end */
+
+ /* Blog Section Start */
+ .blog{
+    width: 100%;
+    height: auto;
+    padding: 50px 125px;
+
+ }
+ .blog h2{
+    margin-bottom: 10px;
+ }
+ 
+ .blog h2+p{
+    text-align: center;
+    padding: 0px 200px;
+ }
+ .blog-content{
+    display: flex;
+    margin-top: 10px auto;
+ }
+ .blog-content div{
+   padding: 10px;
+   display: flex;
+ }
+ .blog-content div div{
+    display: inline-block;
+ }
+.blog-content div img{
+    width: 150px;
+    height: 200px; 
+ }
+ .blog-content div .bdr{
+    border-top: 3px solid saddlebrown;
+    width: 10%;
+    padding: 0px;
+    margin: 0px;
+ }
+ /* Blog Section End */
